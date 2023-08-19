@@ -1,0 +1,31 @@
+.question--option {
+  background-color: #403e41;
+  color: #fff;
+  margin-bottom: 1rem;
+  padding: 1rem 2rem;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: all 0.3s;
+  border: 1px solid transparent;
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+
+.question--option:hover {
+  background-color: #36373a;
+  border: 1px solid #79787a;
+  transform: translateX(20px);
+}
+
+.answer {
+  transform: translateX(20px);
+}
+
+.correct {
+  background-color: #66d9e8;
+}
+
+.wrong {
+  background-color: #fab005;
+}
