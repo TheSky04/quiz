@@ -1,0 +1,38 @@
+.main--sub--p {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+
+.main--start {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 10rem;
+}
+
+.main--start--title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.main--p {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.main--button {
+  cursor: pointer;
+  padding: 1rem 2rem;
+  background-color: #403e41;
+  transition: all 0.3s;
+  color: #fff;
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+
+  border: none;
+  border-radius: 100px;
+}
+
+.main--button:hover {
+  color: #403e41;
+  background-color: #fff;
+}

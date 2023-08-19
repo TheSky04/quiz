@@ -1,0 +1,34 @@
+.question {
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.question--options {
+  text-align: left;
+}
+
+.question--option {
+  background-color: #403e41;
+  color: #fff;
+  margin-bottom: 1rem;
+  padding: 1rem 2rem;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.question--option:hover {
+  background-color: #79787a;
+  transform: translateX(20px);
+}
+
+.question--rest {
+  color: #fff;
+  text-align: left;
+}
+
+.question--point {
+  color: #fff !important;
+  margin-bottom: 0.5rem;
+  text-align: right;
+}
